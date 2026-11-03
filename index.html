@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/favicon.png" />
+    <title>Ma première page CSS</title>
+    <style>
+      /* 1. Style général */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: lightcyan;
+        color: darkslategray;
+        margin: 0;
+      }
+
+      /* 2. En-tête */
+      header {
+        background-color: royalblue;
+        color: white;
+        text-align: center;
+        padding: 40px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      /* 3. Contenu principal */
+      main {
+        max-width: 700px;
+        margin: 30px auto;
+        padding: 20px;
+      }
+
+      /* 4. Sections */
+      section {
+        background-color: white;
+        padding: 25px;
+        margin-bottom: 20px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+      }
+
+      h2 {
+        color: royalblue;
+      }
+
+      /* 5. Liens */
+      a {
+        display: inline-block;
+        background-color: royalblue;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        background-color: darkblue;
+      }
+
+      /* 6. Pied de page */
+      footer {
+        text-align: center;
+        padding: 20px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bonjour, moi c'est Alex !</h1>
+      <p>Apprenant en développement web</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>À propos de moi</h2>
+        <p>
+          Je découvre le développement web et j'apprends à créer mes premières
+          pages avec HTML et CSS.
+        </p>
+      </section>
+
+      <section>
+        <h2>Mes passions</h2>
+        <ul>
+          <li>Cinéma</li>
+          <li>Musique</li>
+          <li>Voyages</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Envie de discuter ?</p>
+        <a href="contact.html"> Me contacter </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Ma première page web - 2026</p>
+    </footer>
+  </body>
+</html>
